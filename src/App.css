@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+}
+.list-group-item {
+  cursor: pointer;
+}
+
+.video {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .App {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+}
